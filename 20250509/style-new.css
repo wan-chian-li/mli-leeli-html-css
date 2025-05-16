@@ -1,0 +1,21 @@
+p,ul{
+    border: 2px dashed purple;
+    border-bottom: 5px dashed rgb(17, 0, 128);
+    border-bottom: 5px dashed rgb(17, 0, 128);
+    padding: .5rem;
+}
+.block,li{
+    border: 2px solid blue;
+    padding: .5rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 0 10px;
+}
+
+.block{
+    display: block;
+}

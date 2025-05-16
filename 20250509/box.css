@@ -1,0 +1,22 @@
+#BoxMargin{
+    border: 2px dashed purple;
+    text-align: center;
+    padding: 0 15px 15px 15px;
+}
+#BoxBorder{
+    border: 2px solid purple;
+    background-color: chartreuse;
+    text-align: center;    
+    padding: 0 15px 15px 15px;
+}
+#BoxPadding{
+    border: 2px solid purple;
+    background-color: rgb(255, 0, 234);
+    padding: 0 15px 15px 15px;
+}
+#BoxContent{
+    border: 2px dashed purple;
+    background-color: white;
+    padding: 0 15px 15px 15px;  
+    padding-bottom: 300px; 
+}
