@@ -1,0 +1,31 @@
+div{
+    width: 350px;
+    height: 200px;
+    margin: 100px 0px 0px 100px;
+    background-color: green;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: -40px 0px 0px 115px;
+}
+
+img{
+    -webkit-animation: 'rotate1' 6s linear infinite;
+    animation: 'rotate1' 6s linear infinite;
+}
+
+img#wheek2{
+    -webkit-animation: 'rotate1' .5s linear infinite;
+    animation: 'rotate1' 1s linear infinite;
+}
+
+@-webkit-keyframes rotate1 {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes rotate1 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

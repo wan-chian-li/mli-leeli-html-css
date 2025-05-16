@@ -1,0 +1,71 @@
+p#p01{
+    border-color: blue green red black;
+    border-width: 10px;
+    border-style: solid;
+    width: 100px;
+    height: 50px;
+}
+
+p#p02{
+    border-color: blue green red black;
+    border-width: 10px;
+    border-style: solid;
+    width: 0;
+    height: 0;
+}
+
+p#p03{
+    border-color: transparent green transparent transparent;  /* transparent:透明色 */
+    border-width: 10px;
+    border-style: solid;
+    width: 0;
+    height: 0;
+}
+
+
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.chatOdd img{
+    float: left;
+}
+.chatEven img {
+    float: right;
+}
+
+.textLeft, .textRight{
+    height: 85px;
+    margin: 20px 80px;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.textLeft{
+    background-color: lightpink;
+}
+
+.textRight {
+    background-color: lightblue;
+}
+
+.triAngleToLeft {
+    border-color: transparent lightblue transparent transparent;
+    border-width: 11px;
+    border-style: solid;
+    width: 0px;
+    height: 0px;
+    float: left;
+    margin-top: 10px;
+}
+
+.triAngleToRight {
+    border-color: transparent transparent transparent lightpink;
+    border-width: 11px;
+    border-style: solid;
+    width: 0px;
+    height: 0px;
+    float: right;
+    margin-top: 10px;
+}
