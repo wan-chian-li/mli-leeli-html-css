@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="dropbox">
+            可以按下下方按鈕或拖拉檔案至此處
+        </div>
+        <br>
+        <input type="file" name="inputFile" id="inputFile"
+               data-target="file-uploader" multiple>
+        <br><br>
+        <table>
+            <tr>
+                <th>檢核項目</th>
+                <th>需求規格</th>
+                <th>檢查結果</th>
+                <th>是否通過</th>
+            </tr>
+        </table>
+        <p>判斷影片長度/格式/解析度是否符合規定</p>
+        <script src="//unpkg.com/jquery"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

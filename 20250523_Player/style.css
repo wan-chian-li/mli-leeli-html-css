@@ -1,0 +1,14 @@
+html{
+    font-size: 100%;
+}
+button{
+    font-size: 100%;
+}
+
+#myCanvas{
+    border: 1px solid black;
+}
+
+meter{
+    width: 200px;
+}
